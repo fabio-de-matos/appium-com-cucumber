@@ -7,6 +7,7 @@ public class TestingSetup {
 
     //apagar documento de log ao iniciar os testes
     public static boolean CLEAR_LOG_FILE = false;
+    //atualiaei aqui
 
     //implicitly wait
     public static long TEMPO_MAX_DE_ESPERA_DISPONIBILIDADE_DO_APP = 60000;
