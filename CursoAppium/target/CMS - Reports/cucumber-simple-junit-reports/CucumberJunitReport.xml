@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="126.038">
+<testcase classname="FORMULARIO SENHOR BARRIGA" name="05 - FORMULARIO - Preencher cadastro e Salvar e Salvar Demorado" time="42.663">
+<system-out><![CDATA[Dado que o usuario esta no aplicativo Senhor Barriga em um dispositivo da device farm.passed
+E clica na opcao "Formulário" do menu.......................................passed
+E preenche o campo Nome com "Fabio".........................................passed
+E seleciona o videogame "XBox One" na lista de combo........................passed
+E clica no checkbox.........................................................passed
+E clica no switch...........................................................passed
+Quando clica no botao salvar "Salvar Demorado"..............................passed
+Então o nome "Fabio" deve estar sendo exibido na tela.......................passed
+E o videogame "XBox One" deve estar sendo exibido na tela...................passed
+E o checkbox deve estar ativado.............................................passed
+E o switch deve estar desativado............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FORMULARIO SENHOR BARRIGA" name="05 - FORMULARIO - Preencher cadastro e Salvar e Salvar Demorado 2" time="40.558">
+<system-out><![CDATA[Dado que o usuario esta no aplicativo Senhor Barriga em um dispositivo da device farm.passed
+E clica na opcao "Formulário" do menu.......................................passed
+E preenche o campo Nome com "Fabio".........................................passed
+E seleciona o videogame "PS4" na lista de combo.............................passed
+E clica no checkbox.........................................................passed
+E clica no switch...........................................................passed
+Quando clica no botao salvar "Salvar".......................................passed
+Então o nome "Fabio" deve estar sendo exibido na tela.......................passed
+E o videogame "PS4" deve estar sendo exibido na tela........................passed
+E o checkbox deve estar ativado.............................................passed
+E o switch deve estar desativado............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FORMULARIO SENHOR BARRIGA" name="05 - FORMULARIO - Preencher cadastro e Salvar e Salvar Demorado 3" time="42.223">
+<system-out><![CDATA[Dado que o usuario esta no aplicativo Senhor Barriga em um dispositivo da device farm.passed
+E clica na opcao "Formulário" do menu.......................................passed
+E preenche o campo Nome com "Fabio".........................................passed
+E seleciona o videogame "Nintendo Switch" na lista de combo.................passed
+E clica no checkbox.........................................................passed
+E clica no switch...........................................................passed
+Quando clica no botao salvar "Salvar Demorado"..............................passed
+Então o nome "Fabio" deve estar sendo exibido na tela.......................passed
+E o videogame "Nintendo Switch" deve estar sendo exibido na tela............passed
+E o checkbox deve estar ativado.............................................passed
+E o switch deve estar desativado............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

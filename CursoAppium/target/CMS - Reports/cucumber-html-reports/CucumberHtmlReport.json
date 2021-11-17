@@ -1,0 +1,637 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-04T00:47:09.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.Hooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "05 - FORMULARIO - Preencher cadastro e Salvar e Salvar Demorado",
+        "description": "",
+        "id": "formulario-senhor-barriga;05---formulario---preencher-cadastro-e-salvar-e-salvar-demorado;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 335000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.Hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "que o usuario esta no aplicativo Senhor Barriga em um dispositivo da device farm",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.CommonSteps.queOUsuarioEstaNoAplicativoSenhorBarrigaEmUmDispositivoDaDeviceFarm()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 28968000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clica na opcao \"Formulário\" do menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Formulário\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.CommonSteps.clicaNaOpcaoDoMenu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 984000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "preenche o campo Nome com \"Fabio\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fabio\"",
+                  "offset": 26
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.preencheOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2833000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "seleciona o videogame \"XBox One\" na lista de combo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"XBox One\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.selecionaOVideogameNaListaDeCombo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "clica no checkbox",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoCheckbox()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 966000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "clica no switch",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoSwitch()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3326000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clica no botao salvar \"Salvar Demorado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salvar Demorado\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoBotaoSalvar(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3664000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "o nome \"Fabio\" deve estar sendo exibido na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fabio\"",
+                  "offset": 7
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oNomeDeveEstarSendoExibidoNaTela(java.lang.String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 503000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "o videogame \"XBox One\" deve estar sendo exibido na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"XBox One\"",
+                  "offset": 12
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oVideogameDeveEstarSendoExibidoNaTela(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "o checkbox deve estar ativado",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oCheckboxDeveEstarAtivado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "o switch deve estar desativado",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oSwitchDeveEstarDesativado()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@formulario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-04T00:47:52.481Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.Hooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "05 - FORMULARIO - Preencher cadastro e Salvar e Salvar Demorado",
+        "description": "",
+        "id": "formulario-senhor-barriga;05---formulario---preencher-cadastro-e-salvar-e-salvar-demorado;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 355000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.Hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "que o usuario esta no aplicativo Senhor Barriga em um dispositivo da device farm",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.CommonSteps.queOUsuarioEstaNoAplicativoSenhorBarrigaEmUmDispositivoDaDeviceFarm()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 29585000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clica na opcao \"Formulário\" do menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Formulário\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.CommonSteps.clicaNaOpcaoDoMenu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1526000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "preenche o campo Nome com \"Fabio\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fabio\"",
+                  "offset": 26
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.preencheOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3284000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "seleciona o videogame \"PS4\" na lista de combo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PS4\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.selecionaOVideogameNaListaDeCombo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 529000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "clica no checkbox",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoCheckbox()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 922000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "clica no switch",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoSwitch()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2243000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clica no botao salvar \"Salvar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salvar\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoBotaoSalvar(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1201000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "o nome \"Fabio\" deve estar sendo exibido na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fabio\"",
+                  "offset": 7
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oNomeDeveEstarSendoExibidoNaTela(java.lang.String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 519000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "o videogame \"PS4\" deve estar sendo exibido na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PS4\"",
+                  "offset": 12
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oVideogameDeveEstarSendoExibidoNaTela(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "o checkbox deve estar ativado",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oCheckboxDeveEstarAtivado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "o switch deve estar desativado",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oSwitchDeveEstarDesativado()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@formulario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-04T00:48:33.043Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.Hooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "05 - FORMULARIO - Preencher cadastro e Salvar e Salvar Demorado",
+        "description": "",
+        "id": "formulario-senhor-barriga;05---formulario---preencher-cadastro-e-salvar-e-salvar-demorado;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.Hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "que o usuario esta no aplicativo Senhor Barriga em um dispositivo da device farm",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.CommonSteps.queOUsuarioEstaNoAplicativoSenhorBarrigaEmUmDispositivoDaDeviceFarm()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 28927000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clica na opcao \"Formulário\" do menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Formulário\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.CommonSteps.clicaNaOpcaoDoMenu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1036000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "preenche o campo Nome com \"Fabio\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fabio\"",
+                  "offset": 26
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.preencheOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2723000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "seleciona o videogame \"Nintendo Switch\" na lista de combo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nintendo Switch\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.selecionaOVideogameNaListaDeCombo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1041000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "clica no checkbox",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoCheckbox()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 943000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "clica no switch",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoSwitch()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3212000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clica no botao salvar \"Salvar Demorado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salvar Demorado\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.clicaNoBotaoSalvar(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3187000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "o nome \"Fabio\" deve estar sendo exibido na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fabio\"",
+                  "offset": 7
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oNomeDeveEstarSendoExibidoNaTela(java.lang.String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "o videogame \"Nintendo Switch\" deve estar sendo exibido na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nintendo Switch\"",
+                  "offset": 12
+                }
+              ],
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oVideogameDeveEstarSendoExibidoNaTela(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "o checkbox deve estar ativado",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oCheckboxDeveEstarAtivado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "o switch deve estar desativado",
+            "match": {
+              "location": "br.sp.fmatos.appium.steps.FormularioSteps.oSwitchDeveEstarDesativado()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@formulario"
+          }
+        ]
+      }
+    ],
+    "name": "FORMULARIO SENHOR BARRIGA",
+    "description": "",
+    "id": "formulario-senhor-barriga",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/resources/Formulario.feature",
+    "tags": [
+      {
+        "name": "@formulario",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
